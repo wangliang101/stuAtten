@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <script src="jquery-1.12.3.min.js"></script>
+    <style>
+        li{
+            list-style: none;
+            width: 30px;
+            height: 30px;
+            text-align: center;
+            line-height: 30px;
+            background-color: #005580;
+            margin-left: 28px;
+            float: left;
+        }
+        span{
+            font-size: 20px;
+            border: 1px solid aquamarine;
+            border-radius: 10%;
+        }
+        .select{
+            background-color: #ccc;
+        }
+        .img{
+            width: 300px;
+            height: 200px;
+        }
+        #div{
+            margin-left: 260px;
+        }
+    </style>
+</head>
+<body>
+<h2>考勤系统说明</h2>
+<p>1.该系统可供老师登记学生的出勤次数，学生也可以自己查询自己的基本信息和出勤次数，管理员可以对学生的基本信息进行修改和对学生出勤次数进行登记</p>
+<p>2。管理员可以在管理后台查询管理员名单、学生名单。还可以增加，删除，修改学生信息</p>
+<p>3.考勤统计可以登记学生出勤次数，修改学生信息可以对学生姓名，密码，专业，班级进行修改</p>
+<p>4.有其他使用问题，可联系超级管理员，QQ：1013594760</p>
+<div id="div">
+    <span>&lt;</span>
+    <img src="img/0.jpg">
+    <span>&gt;</span>
+    <ul>
+        <li>1</li>
+        <li>2</li>
+        <li>3</li>
+        <li>4</li>
+        <li>5</li>
+    </ul>
+</div>
+
+<script>
+    $(function(){
+        var index=1;
+        $("li").eq(0).addClass("select");
+        function update(){
+            index=index%5;
+//            alert(index);
+            $("img").attr("src","img/"+index+".jpg");
+            $("li").removeClass("select");
+            $("li").eq(index).addClass("select");
+            index++;
+        }
+//       启动定时器
+        var t=setInterval(update,1000);
+//        鼠标放上清除定时器
+        $("img,ul,span").mouseover(function(){
+            clearInterval(t);
+        })
+//        鼠标离开启动定时器
+        $("img,ul,span").mouseout(function(){
+            t=setInterval(update,1000);
+        })
+//        左按钮
+        $("span").eq(0).click(function(){
+//            if(index==0){
+//                index=4
+//            }else{
+//                index--;
+//            }
+            index=index==0?4:index-1;
+//            alert(index);
+            $("img").attr("src","img/"+index+".jpg");
+            $("li").removeClass("select");
+            $("li").eq(index).addClass("select");
+        })
+//右按钮
+        $("span").eq(1).click(function(){
+            update();
+        })
+//        通过导航索引改变图片
+        $("li").mouseover(function(){
+            $("li").removeClass("select");
+            $(this).addClass("select");
+            $("img").attr("src","img/"+($(this).index())+".jpg");
+
+        })
+
+    })
+</script>
+</body>
+</html>

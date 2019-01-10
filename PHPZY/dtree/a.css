@@ -1,0 +1,180 @@
+*{
+	margin:0;
+	padding: 0;
+}
+#head p{
+	position: absolute;
+	top: 10px;
+	right: 5px;
+	font-size: 16px;
+
+}
+#head p a{
+	text-decoration: none;
+}
+#body{
+	width: 100%;
+	height: 598px;
+	/*background-color: yellow;*/
+	background-image: url("../images/denglu.jpg");
+}
+#head{
+	width: 100%;
+	height: 50px;
+	/*background-color: green;*/
+	font-size: 30px;
+	text-align: left;
+	line-height: 50px;
+}
+#nav{
+	width: 20%;
+	height: 500px;
+	/*background-color: blue;*/
+	background-image: url("../images/bei2.png");
+	font-size: 20px;
+	float: left;
+}
+#contion{
+	width: 80%;
+	height:500px;
+	/*background-color: #77BAB4;*/
+	font-size: 20px;
+	float: left;
+}
+.dTreeNode{
+	font-size: 20px;
+}
+.footer p{
+	text-align: center;
+	line-height: 40px;
+}
+
+/*glmd表格样式*/
+.glmd-body-r{
+	width: 170px;
+    border: 1px solid darkorange;
+	margin-left: 300px;
+	margin-top: 100px;
+	background-color: red;
+}
+.glmd-body-r tr td{
+	width: 80px;
+	border: 1px solid yellow;
+	border-radius: 10%;
+}
+/*stu-del表格样式*/
+.studl-body-r{
+	width: 576px;
+	border: 1px solid darkorange;
+	margin-left: 100px;
+	margin-top: 100px;
+}
+.studl-body-r tr td{
+	width: 80px;
+	border: 1px solid yellow;
+	border-radius: 10%;
+	text-align: center;
+
+}
+/*添加学生页面样式*/
+.login{width: 260px;
+	height:300px;
+	border: 1px solid red;
+	border-radius: 10%;
+	margin-left: 330px;
+	margin-top: 100px;
+	float:left}
+
+
+/*考勤统计样式*/
+.md-t{
+	width: 500px;
+	border: 1px solid maroon;
+	margin-top: 120px;
+	margin-left: 260px;
+}
+.md-t tr td{
+	width:80px ;
+	border: 1px solid chartreuse;
+	border-radius:10%;
+	text-align: center;
+}
+.md-t tr td a{
+	text-decoration: none;
+}
+
+/*考勤统计修改页面样式*/
+.body-r form{
+	width: 300px;
+	height: 350px;
+	border: 5px solid aqua;
+	margin-left: 330px;
+	margin-top:70px;
+	float: left;
+}
+.body-r .input{
+	width: 60px;
+	height: 30px;
+	margin-left: 60px;
+}
+.body-r div tr td {
+	width: 130px;
+	height: 15px;
+	border:1px solid black ;
+	/*border-right: 1px solid black;*/
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	boder-collapse:collapse
+}
+/*学生信息修改*/
+.body-xx form{
+	width: 300px;
+	height: 350px;
+	border: 5px solid aqua;
+	margin-left: 330px;
+	margin-top:70px;
+	float: left;
+}
+.body-xx .input{
+	width: 60px;
+	height: 30px;
+	margin-left: 60px;
+}
+.body-xx div tr td {
+	width: 130px;
+	height: 15px;
+	border:1px solid black ;
+	/*border-right: 1px solid black;*/
+	line-height: 40px;
+	text-align: center;
+	border-radius: 10px;
+	boder-collapse:collapse
+}
+/*学生名单样式*/
+/*.xxmd{*/
+	/*width: 310px;*/
+/*}*/
+/*.xxmd form{*/
+	/*width: 300px;*/
+	/*!*height: 350px;*!*/
+	/*border: 5px solid aqua;*/
+	/*margin-left: 330px;*/
+	/*margin-top:70px;*/
+	/*float: left;*/
+/*}*/
+/*.xxmd .input{*/
+	/*width: 60px;*/
+	/*height: 30px;*/
+	/*margin-left: 60px;*/
+/*}*/
+/*.xxmd div tr td {*/
+	/*width: 130px;*/
+	/*height: 15px;*/
+	/*border:1px solid black ;*/
+	/*!*border-right: 1px solid black;*!*/
+	/*line-height: 40px;*/
+	/*text-align: center;*/
+	/*border-radius: 10px;*/
+	/*boder-collapse:collapse*/
+/*}*/

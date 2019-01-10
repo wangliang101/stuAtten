@@ -1,0 +1,57 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+
+<html>
+
+<head>
+	<title>Destroydrop &raquo; Javascripts &raquo; Tree</title>
+	<meta charset="UTF-8">
+	<link rel="StyleSheet" href="dtree.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="a.css">
+	<script type="text/javascript" src="dtree.js"></script>
+
+</head>
+
+<body>
+<div id="body">
+	<div id="head">
+		欢迎进入后台管理界面！
+
+		<P><a href="../login.html">退出</a></P>
+	</div>
+     <div class="dtree" id="nav" >
+
+	   
+
+	     <script type="text/javascript">
+		<!--
+
+		     d = new dTree('d');
+
+		     d.add(0,-1,'管理目录');
+		     d.add(1,0,'首页','example01.html');
+		     d.add(2,0,'管理员','example01.html');
+		     d.add(3,0,'学生信息','example01.html');
+		     d.add(4,1,'后台首页','10.html','','fc');
+		     d.add(5,2,'管理员名单','glmd.php','','fc');
+		     d.add(6,2,'学生名单','xxmd.php','','fc');
+		     d.add(7,3,'添加学生','add.html','','fc');
+		     d.add(8,3,'删除学生','stu-del.php','','fc');
+		     d.add(9,3,'考勤统计','kqtj.php','','fc');
+		     d.add(10,3,'修改学生信息','xgxx.php','','fc');
+		    
+
+		     document.write(d);
+
+		//-->
+	     </script>
+
+     </div>
+     <div id="contion">
+     	<iframe src="1.html" name="fc"width="100%" height="500"></iframe>
+     </div>
+	<div class="footer"><p>©2017.12 河北科技师范学院学生考勤管理系统  王亮制作</p></div>
+
+</div>
+</body>
+
+</html>

@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*login页面样式*/
+.header{
+    height: 100px;
+    /*background-color: aqua;*/
+}
+.header p{
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.body{height: 474px;
+/*background-color: royalblue;*/
+}
+.login{width: 260px;
+    height:300px;
+    border: 1px solid red;
+    border-radius: 10%;
+    margin-left: 626px;
+    margin-top: 30px;
+    float:left}
+.footer{
+    height: 40px;
+    /*background-color: yellow;*/
+}
+.footer p{
+    line-height: 40px;
+    text-align: center;
+
+}
+/*index页面样式*/
+.myhead{
+    height: 100px;
+    background-color: red;
+    background-image: url("../images/sidebar.png");
+}
+.header-l{
+    width: 350px;
+    /*background-color: yellow;*/
+    float: left;
+}
+.header-l img{
+    width: 240px;
+    height: 60px;
+    margin-left: 60px;
+    margin-top: 20px;
+
+}
+.header-c{
+    width: 550px;
+
+    float: left;
+
+}
+.header-c p{
+    line-height: 100px;
+    text-align: center;
+    font-size: 40px;
+}
+.header-r{
+    height: 100px;
+    float: left;
+    /*background-color: yellow;*/
+    float: right;
+}
+.header-r ul li{
+    list-style: none;
+    float: right;
+    margin-top: 76px;
+    margin-right: 5px;
+}
+.body-l{
+    width: 220px;
+    height: 474px;
+    background-color: aqua;
+    float: left;
+    background-image: url("../images/bei2.png");
+}
+.body-l-t{
+    width: 160px;
+    height: 80px;
+    border: 1px solid chartreuse;
+    margin-left: 30px;
+    margin-top:40px ;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.body-l-b{
+    width: 160px;
+    height: 178px;
+    border: 1px solid chartreuse;
+    margin-left: 30px;
+    margin-top:40px ;
+}
+.body-l-b tr td{
+    width: 160px;
+    height: 40px;
+    border: 1px solid chartreuse;
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+}
+.body-l-b tr td a{
+    text-decoration: none;
+}
+.body-r{
+    height: 474px;
+    width:1040px;
+    /*background-color: blueviolet;*/
+    margin-left: 220px;
+    position: absolute;
+    top: 100px;
+
+}
+.body-r div {
+    width: 262px;
+    height: 268px;
+     margin-left: 300px;
+     margin-top: 100px;
+ }
+.body-r div table{border: 1px solid black}
+.body-r div tr td {
+    width: 130px;
+    height: 15px;
+    border:1px solid black ;
+    /*border-right: 1px solid black;*/
+    line-height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    boder-collapse:collapse
+}
+.body-r .md-t{
+    width: 400px;
+    height: 200px ;
+
+}
+.body-r .md-t table tr{
+    border: 1px solid black;
+}
+.body-r form{
+    width: 300px;
+    height: 350px;
+    border: 5px solid aqua;
+    margin-left: -10px;
+    margin-top: 0px;
+    float: left;
+}
+.body-r .input{
+    width: 60px;
+    height: 30px;
+    margin-left: 60px;
+}
+.myfoot{
+    height: 40px;
+    /*background: yellow;*/
+    margin-top: 474px;
+}
+.myfoot p{
+    line-height: 40px;
+    text-align: center;
+
+}
+
+/*查询页页面样式*/
+.body-r-x{
+    margin-left: 100px;
+}
+#cx{
+    width: 300px;
+    border: 1px solid coral;
+    /*position: absolute;*/
+    left: 300px;
+    top: 199px;
+    float: left;
+}
+#cx span{
+    display: block;
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 280px;
+    height: 40px;
+    border: 1px solid coral;
+    text-align: center;
+    line-height: 40px;
+}
+#cx h3{
+   text-align: center;
+}
